@@ -1,7 +1,14 @@
 <template>
-  <Tutorial />
+  <div class="container">
+    <Hero/>
+    <LargeCardDisplay />
+    <LargeCardDisplay />
+  </div>
 </template>
 
 <script>
-export default {}
+
+export default {
+  
+}
 </script>
