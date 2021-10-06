@@ -1,20 +1,20 @@
 <template>
     <div class="container">
         <h4 class="header">
-            sadf
+            {{ cardsSection.title }}
         </h4>
         <p class="snippet" >
-           sdf
+          {{ cardsSection.snippet }}
         </p>
         <div class="cards-container">
-          asdf
+          <LargeCard v-for="card in cardsSection.cards" :key="card.id" :card="card" />
         </div>
     </div>
 </template>
 
 <script>
     export default {
-    
+        props: ['cardsSection']
     }
 </script>
 
