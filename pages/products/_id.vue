@@ -6,6 +6,7 @@
                 <h1>{{ product.title }}</h1>
                 <p class="snippet">{{ product.snippet }}</p>
              
+                <RentModal :product="product" />
             </div>
         </div>
         <div class="whats-included-container">
@@ -31,11 +32,15 @@
                 {{ product.description }}
             </p>
         </div>
+
+        <Reviews />
     
     </div>
     <div v-else class="container padding">
-       page not found
+       <PageNotFound />
     </div>
+
+    
 </template>
 
 <script>
