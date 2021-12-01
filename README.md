@@ -1,1 +1,1 @@
-## Client app / [Show app](https://nuxtjs.org)
+## Client app / [Show app](https://amazing-jennings-5544ab.netlify.app/)
